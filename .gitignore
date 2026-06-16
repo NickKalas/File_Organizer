@@ -1,0 +1,3 @@
+# Secret keys should go under here, only for convienience
+.env
+test.py
