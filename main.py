@@ -59,10 +59,8 @@ def main(folder_path):
 
             category = get_folder_name(file_path, file_extensions)
             destination = os.path.join(folder_path, category, file.name)
-            
+
             os.rename(file_path, destination)
-
-
 
 if __name__ == "__main__":
     folder_path = get_input()
